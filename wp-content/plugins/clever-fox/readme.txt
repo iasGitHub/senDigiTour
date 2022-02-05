@@ -2,9 +2,9 @@
 Contributors: nayrathemes
 Tags: homepage, companion, demo, sections, customizer, widget, settings
 Requires at least: 4.0
-Tested up to: 5.8
+Tested up to: 5.9
 Requires PHP: 5.6
-Stable tag: 9.4
+Stable tag: 9.7
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
 
@@ -50,6 +50,8 @@ Clever Fox plugin to enhance the functionality of free themes made by Nayra Them
 - [Aravalli](https://wordpress.org/themes/aravalli/)
 - [Arbuda](https://wordpress.org/themes/arbuda/)
 - [Boostify](https://wordpress.org/themes/boostify/)
+- [Avtari](https://wordpress.org/themes/avtari/)
+- [Gradiant](https://wordpress.org/themes/gradiant/)
 
 
 
@@ -100,15 +102,26 @@ Yes, This plugin is specially make for Nayra Themes . You can install theme for 
 - [Aravalli](https://wordpress.org/themes/aravalli/)
 - [Arbuda](https://wordpress.org/themes/arbuda/)
 - [Boostify](https://wordpress.org/themes/boostify/)
+- [Avtari](https://wordpress.org/themes/avtari/)
+- [Gradiant](https://wordpress.org/themes/gradiant/)
 
 
 == License ==
 
-Clever Fox WordPress plugin, Copyright (C) 2021 Nayra Themes
+Clever Fox WordPress plugin, Copyright (C) 2022 Nayra Themes
 Clever Fox WordPress plugin is licensed under the GPL3 (https://www.gnu.org/licenses/gpl-3.0.en.html).
 
 
 == Changelog ==
+
+= 9.7 =
+* Tested With WordPress 5.9
+
+= 9.6 =
+* Copyright Year Updated
+
+= 9.5 =
+* Readme Updated
 
 = 9.4 =
 * Gradiant Theme Upsale Links Added

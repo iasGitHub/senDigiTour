@@ -11,7 +11,7 @@
 
 .cleverfox-range-slider-range {
 	-webkit-appearance: none;
-	width: calc(100% - (100px));
+	width: calc(100% - (100px)) !important;
 	height: 6px;
 	border-radius: 5px;
 	background: #d7dcdf;

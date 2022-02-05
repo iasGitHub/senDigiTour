@@ -1579,3 +1579,7 @@ ul.wp-block-social-links li a {
 .sidebar .widget.woocommerce li:focus-within a {
     color: #ffffff;
 }
+
+.post-content ol.wp-block-latest-comments {
+    padding: 0;
+}

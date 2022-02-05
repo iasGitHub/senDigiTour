@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Elementor Website Builder - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2021-12-16 17:54:46+0000\n"
+"PO-Revision-Date: 2022-02-04 14:17:48+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -11,13 +11,13 @@ msgstr ""
 "Language: fr\n"
 "Project-Id-Version: Plugins - Elementor Website Builder - Stable (latest release)\n"
 
+#: modules/library/documents/page.php:65
+msgid "Add New Page Template"
+msgstr "Ajouter un nouveau modèle de page"
+
 #: modules/usage/usage-reporter.php:21
 msgid "Elements Usage"
 msgstr "Utilisation des éléments"
-
-#: modules/library/documents/page.php:65
-msgid "Add New Library Page"
-msgstr "Ajouter une nouvelle page de bibliothèque"
 
 #: includes/widgets/common.php:788
 msgid "Y Anchor Point"
@@ -107,7 +107,6 @@ msgstr "Vous souhaitez créer des chemins de texte personnalisés avec SVG ? %1
 msgid "Please note! We couldn't deactivate all of your plugins on Safe Mode. Please %1$sread more%2$s about this issue"
 msgstr "Attention ! Nous n’avons pas pu désactiver toutes vos extensions en mode sans échec. %1$sEn savoir plus%2$s à propos de ce problème"
 
-#. translators: %1$s Link open tag, %2$s: Link close tag.
 #. translators: %1$s Link open tag, %2$s: Link close tag.
 #: modules/safe-mode/module.php:294 modules/safe-mode/module.php:307
 msgid "%1$sClick here%2$s to troubleshoot"
@@ -574,56 +573,56 @@ msgstr "Vous utilisez WooCommerce ?"
 msgid "Love using Elementor?"
 msgstr "Vous aimez utiliser Elementor ?"
 
-#: core/app/modules/import-export/module.php:293
+#: core/app/modules/import-export/module.php:291
 msgid "Template Kits"
 msgstr "Kits de modèle"
 
-#: core/app/modules/import-export/module.php:290
+#: core/app/modules/import-export/module.php:288
 msgid "Import / Export Kit"
 msgstr "Importer/exporter un kit"
 
-#: core/app/modules/import-export/module.php:262
+#: core/app/modules/import-export/module.php:260
 msgid "Open Site Settings > History > Revisions."
 msgstr "Ouvrir Réglages > Historique > Révisions."
 
-#: core/app/modules/import-export/module.php:262
+#: core/app/modules/import-export/module.php:260
 msgid "Even after you import and apply a Template Kit, you can undo it by restoring a previous version of your site."
 msgstr "Même après avoir importé et appliqué un kit, vous pouvez revenir en arrière en restaurant une version antérieure de votre site."
 
-#: core/app/modules/import-export/module.php:254
+#: core/app/modules/import-export/module.php:252
 msgid "Apply the design and settings of another site to this one."
 msgstr "Appliquez le design et les réglages d’un autre site à celui-ci."
 
-#: core/app/modules/import-export/module.php:252
+#: core/app/modules/import-export/module.php:250
 msgid "Start Import"
 msgstr "Commencer l’importation"
 
-#: core/app/modules/import-export/module.php:249 assets/js/app-packages.js:8430
-#: assets/js/app-packages.js:8569 assets/js/app-packages.js:9098
-#: assets/js/app-packages.js:9396 assets/js/app.js:8540 assets/js/app.js:8679
-#: assets/js/app.js:9208 assets/js/app.js:9506
+#: core/app/modules/import-export/module.php:247 assets/js/app-packages.js:8428
+#: assets/js/app-packages.js:8567 assets/js/app-packages.js:9097
+#: assets/js/app-packages.js:9297 assets/js/app.js:8538 assets/js/app.js:8677
+#: assets/js/app.js:9207 assets/js/app.js:9407
 msgid "Import a Template Kit"
 msgstr "Importer un kit de modèles"
 
-#: core/app/modules/import-export/module.php:242
+#: core/app/modules/import-export/module.php:240
 msgid "Bundle your whole site - or just some of its elements - to be used for another website."
 msgstr "Regroupez l’ensemble de votre site - ou seulement certains de ses éléments - pour les utiliser sur un autre site."
 
-#: core/app/modules/import-export/module.php:240
+#: core/app/modules/import-export/module.php:238
 msgid "Start Export"
 msgstr "Commencer l’exportation"
 
-#: core/app/modules/import-export/module.php:237 assets/js/app-packages.js:8007
-#: assets/js/app-packages.js:9355 assets/js/app.js:8117 assets/js/app.js:9465
+#: core/app/modules/import-export/module.php:235 assets/js/app-packages.js:8007
+#: assets/js/app-packages.js:9256 assets/js/app.js:8117 assets/js/app.js:9366
 msgid "Export a Template Kit"
 msgstr "Exporter un kit de modèles"
 
 #. translators: 1: New line break, 2: Learn More link.
-#: core/app/modules/import-export/module.php:230
+#: core/app/modules/import-export/module.php:228
 msgid "Design sites faster with a template kit that contains some or all components of a complete site, like templates, content & site settings.%1$sYou can import a kit and apply it to your site, or export the elements from this site to be used anywhere else. %2$s"
 msgstr "Concevez des sites plus rapidement grâce à un kit qui contient certains/tous les composants d’un site complet, comme les modèles, le contenu et les réglages du site.%1$sVous pouvez importer un kit et l’appliquer à votre site ou exporter les éléments de ce site pour les utiliser ailleurs. %2$s"
 
-#: core/app/modules/import-export/module.php:226
+#: core/app/modules/import-export/module.php:224
 #: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:3302
 msgid "Learn more"
 msgstr "Apprendre plus"
@@ -817,15 +816,15 @@ msgstr "Fonctionne uniquement pour les vidéos YouTube."
 msgid "Privacy mode"
 msgstr "Mode confidentialité"
 
-#: core/admin/notices/elementor-dev-notice.php:83
+#: core/admin/notices/elementor-dev-notice.php:87
 msgid "Install & Activate"
 msgstr "Installer & activer"
 
-#: core/admin/notices/elementor-dev-notice.php:78
+#: core/admin/notices/elementor-dev-notice.php:82
 msgid "Get a sneak peek at our in progress development versions, and help us improve Elementor to perfection. Developer Edition releases contain experimental functionality for testing purposes."
 msgstr "Jetez un coup d’œil à nos versions de développement en cours, et aidez-nous à améliorer Elementor à la perfection. Les versions de développement contiennent des fonctionnalités expérimentales à des fins de test."
 
-#: core/admin/notices/elementor-dev-notice.php:77
+#: core/admin/notices/elementor-dev-notice.php:81
 msgid "Elementor Developer Edition"
 msgstr "Elementor édition développeur/développeuse"
 
@@ -954,7 +953,7 @@ msgstr "Ajoute un nouveau type de contenu Elementor qui autorise la création in
 #: modules/landing-pages/documents/landing-page.php:54
 #: modules/landing-pages/module.php:44 modules/landing-pages/module.php:149
 #: modules/landing-pages/module.php:261 modules/landing-pages/module.php:273
-#: assets/js/app-packages.js:9686 assets/js/app.js:9796
+#: assets/js/app-packages.js:9587 assets/js/app.js:9697
 #: assets/js/editor.js:44196
 msgid "Landing Pages"
 msgstr "Page d’atterrissage"
@@ -1032,8 +1031,8 @@ msgid "Migrate to v3.0"
 msgstr "Migrer vers la v3.0"
 
 #: core/kits/documents/tabs/global-colors.php:24
-#: core/kits/documents/tabs/global-colors.php:43 assets/js/app-packages.js:9694
-#: assets/js/app.js:9804 assets/js/editor.js:39181
+#: core/kits/documents/tabs/global-colors.php:43 assets/js/app-packages.js:9595
+#: assets/js/app.js:9705 assets/js/editor.js:39181
 msgid "Global Colors"
 msgstr "Couleurs globales"
 
@@ -1106,8 +1105,8 @@ msgstr "Attention, veuillez sauvegarder avant de mettre à niveau !"
 msgid "User Preferences"
 msgstr "Préférences de compte"
 
-#: core/kits/manager.php:366 assets/js/app-packages.js:9692
-#: assets/js/app.js:9802 assets/js/editor.js:39128 assets/js/editor.js:39132
+#: core/kits/manager.php:366 assets/js/app-packages.js:9593
+#: assets/js/app.js:9703 assets/js/editor.js:39128 assets/js/editor.js:39132
 #: assets/js/editor.js:39142
 msgid "Site Settings"
 msgstr "Réglages du site"
@@ -1173,7 +1172,7 @@ msgid "Default Page Layout"
 msgstr "Mise en page par défaut"
 
 #: core/kits/documents/tabs/settings-layout.php:47
-#: assets/js/app-packages.js:9694 assets/js/app.js:9804
+#: assets/js/app-packages.js:9595 assets/js/app.js:9705
 msgid "Layout Settings"
 msgstr "Réglages de mise en page"
 
@@ -1462,14 +1461,14 @@ msgid "Clear Log"
 msgstr "Effacer le journal"
 
 #: includes/frontend.php:1307 includes/widgets/image-carousel.php:795
-#: assets/js/app-packages.js:8330 assets/js/app-packages.js:9065
-#: assets/js/app.js:8440 assets/js/app.js:9175
+#: assets/js/app-packages.js:8328 assets/js/app-packages.js:9064
+#: assets/js/app.js:8438 assets/js/app.js:9174
 msgid "Next"
 msgstr "Suivant"
 
 #: includes/frontend.php:1306 includes/widgets/image-carousel.php:791
-#: assets/js/app-packages.js:8402 assets/js/app-packages.js:9059
-#: assets/js/app.js:8512 assets/js/app.js:9169
+#: assets/js/app-packages.js:8400 assets/js/app-packages.js:9058
+#: assets/js/app.js:8510 assets/js/app.js:9168
 msgid "Previous"
 msgstr "Précédent"
 
@@ -1966,7 +1965,7 @@ msgstr "Obtenir le constructeur de fenêtre surgissante"
 
 #: includes/settings/settings.php:182
 #: includes/template-library/sources/local.php:1632
-#: assets/js/app-packages.js:9677 assets/js/app.js:9787
+#: assets/js/app-packages.js:9578 assets/js/app.js:9688
 #: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:1928
 msgid "Popups"
 msgstr "Fenêtres surgissantes"
@@ -1975,7 +1974,7 @@ msgstr "Fenêtres surgissantes"
 #: core/app/modules/site-editor/module.php:31
 #: core/common/modules/finder/categories/general.php:72
 #: includes/template-library/sources/local.php:1631
-#: assets/js/app-packages.js:11423 assets/js/editor.js:39153
+#: assets/js/app-packages.js:11434 assets/js/editor.js:39153
 msgid "Theme Builder"
 msgstr "Constructeur de thème"
 
@@ -2455,7 +2454,8 @@ msgid "Opacity"
 msgstr "Opacité"
 
 #: core/base/module.php:130 core/base/module.php:143 includes/plugin.php:580
-#: includes/plugin.php:593 assets/js/app-packages.js:9303 assets/js/app.js:9413
+#: includes/plugin.php:593 assets/js/app-packages.js:10064
+#: assets/js/app.js:10174
 #: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:960
 #: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:3653
 msgid "Something went wrong."
@@ -2595,7 +2595,6 @@ msgctxt "Border Control"
 msgid "Groove"
 msgstr "Rainure"
 
-#. translators: %s: Document title.
 #. translators: %s: Document title.
 #: core/base/document.php:1026 core/settings/page/model.php:126
 #: includes/editor-templates/panel.php:67
@@ -3238,7 +3237,7 @@ msgid "To enable maintenance mode you have to set a template for the maintenance
 msgstr "Pour activer le mode maintenance, vous devez définir un modèle pour la page de maintenance."
 
 #: includes/maintenance-mode.php:292 includes/maintenance-mode.php:369
-#: assets/js/app-packages.js:8927 assets/js/app.js:9037
+#: assets/js/app-packages.js:8926 assets/js/app.js:9036
 msgid "Edit Template"
 msgstr "Modifier le modèle"
 
@@ -3618,8 +3617,8 @@ msgstr "Découvrez notre widget global"
 #: includes/settings/settings.php:315 includes/settings/settings.php:337
 #: includes/settings/settings.php:359 includes/settings/settings.php:380
 #: includes/settings/settings.php:648 assets/js/app-packages.js:3638
-#: assets/js/app-packages.js:11055 assets/js/app-packages.js:11345
-#: assets/js/app-packages.js:11380 assets/js/app.js:4418
+#: assets/js/app-packages.js:11066 assets/js/app-packages.js:11356
+#: assets/js/app-packages.js:11391 assets/js/app.js:4418
 #: assets/js/editor.js:9022
 msgid "Go Pro"
 msgstr "Passer à la version Pro"
@@ -3833,8 +3832,8 @@ msgstr "Saisissez le nom du modèle"
 
 #: includes/editor-templates/templates.php:190
 #: includes/template-library/sources/local.php:1093
-#: assets/js/app-packages.js:7776 assets/js/app-packages.js:10187
-#: assets/js/app.js:7886 assets/js/app.js:10297
+#: assets/js/app-packages.js:7776 assets/js/app-packages.js:10198
+#: assets/js/app.js:7886 assets/js/app.js:10308
 msgid "Export"
 msgstr "Exportation"
 
@@ -3862,15 +3861,15 @@ msgstr "Bibliothèque"
 #: includes/editor-templates/responsive-bar.php:65
 #: includes/editor-templates/responsive-bar.php:66 includes/frontend.php:1308
 #: assets/js/app-packages.js:3119 assets/js/app-packages.js:5681
-#: assets/js/app-packages.js:6299 assets/js/app-packages.js:9308
+#: assets/js/app-packages.js:6299 assets/js/app-packages.js:10124
 #: assets/js/app.js:3899 assets/js/app.js:6168 assets/js/app.js:6634
-#: assets/js/app.js:9418 assets/js/editor.js:39464
+#: assets/js/app.js:10234 assets/js/editor.js:39464
 msgid "Close"
 msgstr "Fermer"
 
 #: includes/template-library/sources/local.php:377
 #: includes/template-library/sources/local.php:1630
-#: assets/js/app-packages.js:9676 assets/js/app.js:9786
+#: assets/js/app-packages.js:9577 assets/js/app.js:9687
 msgid "Saved Templates"
 msgstr "Modèles enregistrés"
 
@@ -3895,8 +3894,8 @@ msgstr "Pour modifier le code source de votre thème, nous vous recommandons d�
 #: core/admin/admin-notices.php:329 core/admin/admin-notices.php:370
 #: core/admin/admin-notices.php:412 core/admin/admin-notices.php:454
 #: core/admin/admin-notices.php:496
-#: core/app/modules/import-export/module.php:245
-#: core/app/modules/import-export/module.php:257
+#: core/app/modules/import-export/module.php:243
+#: core/app/modules/import-export/module.php:255
 #: core/experiments/manager.php:223 core/experiments/manager.php:236
 #: core/experiments/manager.php:249 core/experiments/manager.php:262
 #: core/experiments/manager.php:272 core/experiments/manager.php:300
@@ -3905,13 +3904,13 @@ msgstr "Pour modifier le code source de votre thème, nous vous recommandons d�
 #: modules/safe-mode/module.php:401
 #: modules/safe-mode/mu-plugin/elementor-safe-mode.php:104
 #: assets/js/app-packages.js:4035 assets/js/app-packages.js:7998
-#: assets/js/app-packages.js:8416 assets/js/app-packages.js:8522
-#: assets/js/app-packages.js:9077 assets/js/app-packages.js:9306
-#: assets/js/app-packages.js:9358 assets/js/app-packages.js:9399
-#: assets/js/app-packages.js:11143 assets/js/app-packages.js:11279
-#: assets/js/app.js:4815 assets/js/app.js:8108 assets/js/app.js:8526
-#: assets/js/app.js:8632 assets/js/app.js:9187 assets/js/app.js:9416
-#: assets/js/app.js:9468 assets/js/app.js:9509 assets/js/editor.js:15890
+#: assets/js/app-packages.js:8414 assets/js/app-packages.js:8520
+#: assets/js/app-packages.js:9076 assets/js/app-packages.js:9259
+#: assets/js/app-packages.js:9300 assets/js/app-packages.js:10123
+#: assets/js/app-packages.js:11154 assets/js/app-packages.js:11290
+#: assets/js/app.js:4815 assets/js/app.js:8108 assets/js/app.js:8524
+#: assets/js/app.js:8630 assets/js/app.js:9186 assets/js/app.js:9369
+#: assets/js/app.js:9410 assets/js/app.js:10233 assets/js/editor.js:15890
 #: assets/js/editor.js:19322 assets/js/editor.js:19354
 #: assets/js/editor.js:29579
 #: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:980
@@ -3921,7 +3920,7 @@ msgstr "En savoir plus"
 
 #: core/kits/documents/tabs/global-typography.php:28
 #: core/kits/documents/tabs/global-typography.php:47
-#: assets/js/app-packages.js:9694 assets/js/app.js:9804
+#: assets/js/app-packages.js:9595 assets/js/app.js:9705
 #: assets/js/editor.js:39191
 msgid "Global Fonts"
 msgstr "Polices globales"
@@ -5072,7 +5071,7 @@ msgid "Success"
 msgstr "Succès"
 
 #: includes/widgets/alert.php:99 includes/widgets/button.php:124
-#: includes/widgets/progress.php:114 assets/js/app-packages.js:11132
+#: includes/widgets/progress.php:114 assets/js/app-packages.js:11143
 #: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:3257
 msgid "Info"
 msgstr "Info"
@@ -5498,8 +5497,8 @@ msgstr "Style"
 #: includes/widgets/image-box.php:390 includes/widgets/tabs.php:112
 #: includes/widgets/tabs.php:396 includes/widgets/testimonial.php:95
 #: includes/widgets/testimonial.php:224 includes/widgets/toggle.php:111
-#: includes/widgets/toggle.php:463 assets/js/app-packages.js:9684
-#: assets/js/app.js:9794 assets/js/editor.js:26114
+#: includes/widgets/toggle.php:463 assets/js/app-packages.js:9585
+#: assets/js/app.js:9695 assets/js/editor.js:26114
 msgid "Content"
 msgstr "Contenu"
 
@@ -5594,7 +5593,7 @@ msgstr "Ajouter une nouvelle section"
 
 #: core/admin/admin.php:174 includes/editor-templates/editor-wrapper.php:50
 #: includes/editor-templates/templates.php:50 modules/gutenberg/module.php:121
-#: assets/js/app-packages.js:10691
+#: assets/js/app-packages.js:10702
 #: assets/js/kit-library.79bbce90dedf8ef30a5c.bundle.js:560
 msgid "Loading"
 msgstr "Chargement"

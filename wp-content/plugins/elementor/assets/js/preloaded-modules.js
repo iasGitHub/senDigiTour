@@ -1,4 +1,4 @@
-/*! elementor - v3.5.3 - 28-12-2021 */
+/*! elementor - v3.5.5 - 03-02-2022 */
 (self["webpackChunkelementor"] = self["webpackChunkelementor"] || []).push([["preloaded-modules"],{
 
 /***/ "../node_modules/@babel/runtime/helpers/defineProperty.js":
@@ -1567,12 +1567,14 @@ module.exports = elementorModules.ViewModule.extend({
       }, options.videoParams);
       $videoElement = $('<video>', videoParams);
     } else {
-      let apiProvider = elementorFrontend.utils.baseVideoLoader;
+      let apiProvider;
 
       if (-1 !== options.url.indexOf('vimeo.com')) {
         apiProvider = elementorFrontend.utils.vimeo;
       } else if (options.url.match(/^(?:https?:\/\/)?(?:www\.)?(?:m\.)?(?:youtu\.be\/|youtube\.com)/)) {
         apiProvider = elementorFrontend.utils.youtube;
+      } else {
+        return;
       }
 
       $videoElement = $('<iframe>', {
